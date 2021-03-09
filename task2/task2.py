@@ -37,10 +37,6 @@ if __name__ == '__main__':
                     temp_center = []
                     temp_line = []
                     temp_line_sec = []
-                    temp_radius_k = 1
-                    temp_center_k = 3
-                    temp_line_k = 3
-                    temp_line_sec_k = 3
                     for i in range(0, len(temp_list)):
                         if len(temp_list) < 4:
                             if temp_list[i] == dannie.find('radius'):
